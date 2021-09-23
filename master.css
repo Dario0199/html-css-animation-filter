@@ -68,4 +68,13 @@
 .ex-7-img:hover{
     filter: grayscale(.5) sepia(.5);
 }
- 
+
+/* ex8 */
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(.5) opacity(.9);
+    border-radius: 10px;
+}
