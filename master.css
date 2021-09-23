@@ -44,8 +44,8 @@
 }
 
 .ex-5-square:hover{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .ex-5-square:active{
@@ -77,4 +77,36 @@
 .ex-8-img:hover{
     filter: grayscale(.5) opacity(.9);
     border-radius: 10px;
+}
+
+/* ex9 */
+.ex-9-img{
+    transition: 1.5s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(.5) hue-rotate(.2);
+    width: 450px;
+    border-radius: 10px;
+    
+}
+
+/* ex10 */
+.ex-10-icon{
+    transform: load 1s linear infinite;
+    @keyframes rotate{
+    }
+}
+
+/* ex11 */
+.ex-11-icon:hover{
+    transform: load2 .6s linear ;
+    @keyframes{
+        0% {
+            rotate
+        }
+        90% {
+            rotate
+        }
+    }
 }
